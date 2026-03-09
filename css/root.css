@@ -1,7 +1,11 @@
 :root{
 
-    --color1: white;
+    --color1: #FC0404;
+    --color2: #FFD60A;
+    --color3: #1E1E1E;
 
+    --font-family: "Tektur", sans-serif;
+    --font-family2: "Audiowide", sans-serif;
 
 
 }
@@ -10,6 +14,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--font-family);
+    
     
 }
 
