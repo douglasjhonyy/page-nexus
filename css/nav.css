@@ -14,7 +14,7 @@ nav{
 }
 
 .nav-logo {
-    font-size: 15px;
+    font-size: 10px;
     font-family: "Audiowide", sans-serif;
     font-size: 2rem; 
     font-weight: 900;
@@ -22,6 +22,11 @@ nav{
     letter-spacing: 4px;
     
     
+}
+
+.nav-logo img{
+    height: 30px;
+    width: 100%;
 }
 
 .nav-logo span { 
