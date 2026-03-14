@@ -1,0 +1,31 @@
+.sinopse{
+    
+    display: flex;
+    position: relative;
+   
+   
+    
+}
+
+.sinopse p {
+    font-size: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(100px);
+    padding: 35px;
+    margin: 60px;
+    color: white;
+    border-radius: 30px;
+    
+    
+    
+    
+}
+
+.sinopse img{
+    height: 350px;
+    margin: 100px;
+    padding: 10px;
+    
+    
+    
+}
