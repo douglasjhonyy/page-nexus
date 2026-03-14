@@ -1,31 +1,41 @@
-.sinopse{
+.sinopse {
+    padding: 35px;
+    margin: 50px;
     
     display: flex;
-    position: relative;
-   
-   
-    
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+
+
 }
 
 .sinopse p {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
     font-size: 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(100px);
     padding: 35px;
-    margin: 60px;
+    margin: 50px;
     color: white;
     border-radius: 30px;
     
-    
-    
-    
+
+
+
+
+
+
 }
 
-.sinopse img{
-    height: 350px;
-    margin: 100px;
-    padding: 10px;
+.sinopse img {
+    height: 450px;
+    margin: 10px;
+    padding: 20px;
+    position: absolute;
+
+
     
-    
-    
+
+
+
 }
