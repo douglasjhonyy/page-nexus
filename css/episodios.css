@@ -1,0 +1,97 @@
+ .temporadas {
+     padding: 35px;
+     margin: 50px;
+
+     border-radius: 16px;
+     
+
+ }
+
+
+ h2 {
+     color: var(--color2);
+     display: flex;
+
+     flex-direction: column;
+     justify-content: center;
+
+     color: #FFD60A;
+     text-align: center;
+
+     font-size: 50px;
+     font-style: normal;
+
+     line-height: normal;
+
+ }
+
+ .episodios {
+     padding: 15px;
+     gap: 10px;
+     
+ }
+
+
+
+ .episodes {
+     padding: 6rem 3rem;
+     text-align: center;
+ }
+
+ .ep-list {
+     
+     display: flex;
+     flex-direction: column;
+     
+ }
+
+ .ep-item {
+     display: flex;
+     align-items: center;
+     gap: 2rem;
+     padding: 1.5rem 2rem;
+     border: 1px solid var(--color2);
+     background: #444444;
+     transition: all 0.3s;
+     text-align: left;
+     cursor: pointer;
+ }
+
+ .ep-item:hover {
+     border-color: #fff;
+     background: #6e5d08;
+     transform: translateX(8px);
+     box-shadow: -4px 0 0 #fff;
+     
+ }
+
+ .ep-num {
+     font-family: var(--font-family2);
+     font-size: 60px;
+     font-weight: 900;
+     color: var(--color2);
+     min-width: 60px;
+ }
+
+ .ep-info {
+     flex: 1;
+ }
+
+ .ep-title {
+     color: white;
+     color: #FFF;
+     font-family: Tektur;
+     font-size: 25px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+ }
+
+ .ep-desc {
+     font-size: 15px;
+     color: #000;
+ }
+
+ 
+
+ 
