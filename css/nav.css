@@ -13,7 +13,7 @@ nav{
     
 }
 
-.nav-logo {
+/*.nav-logo {
     font-size: 10px;
     font-family: "Audiowide", sans-serif;
     font-size: 2rem; 
@@ -23,16 +23,18 @@ nav{
     
     
 }
+    .nav-logo span { 
+    color: yellow; 
+    text-shadow: white; 
+    font-family: "Audiowide", sans-serif;}    
+*/
 
 .nav-logo img{
     height: 30px;
     width: 100%;
 }
 
-.nav-logo span { 
-    color: yellow; 
-    text-shadow: white; 
-    font-family: "Audiowide", sans-serif;}
+
 
 .nav-links ul, li{
     display: flex;

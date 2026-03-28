@@ -1,0 +1,115 @@
+
+@media (max-width: 667px) {
+
+      nav {
+    padding: 10px;
+    
+  }
+
+.nav-logo img{
+    height: 20px;
+    width: 100%;
+}
+  .nav-links {
+    display: none; /* em projetos reais, viraria um menu hambúrguer */
+  }
+
+  button{
+    background: #444444;
+    color: white;
+    align-items: center;
+    width: 170px;
+    height: 40px;
+    
+    border: none;
+    font-size: 25px;}
+
+    /*Background*/
+
+    .bg-initial{
+    height: 320px;
+    margin: 10px;
+    padding: 20px;
+    
+    }
+     .bg-initial p {
+    display: none;
+    
+    }
+
+  /*Sinopse*/
+  .sinopse p{
+    font-size: 12px;
+    padding: 5px;
+    margin: auto;
+    
+    
+  }
+
+  .sinopse img{
+    height: 230px;
+    margin: 10px;
+
+  }
+
+  /*CARD*/
+
+  .bg-cards {
+
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+}
+
+
+/*.cards img {
+    height: 350px;
+    margin: 10px;
+    padding: 20px;
+}*/
+
+/* EPISÓDIOS — remove o número grande */
+  .episodes {
+    padding: 4rem 1.5rem;
+  }
+  .ep-item {
+    padding: 1rem 1.2rem;
+    gap: 1rem;
+  }
+  .ep-num {
+    font-size: 1.2rem;
+    min-width: 35px;
+  }
+.stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* SEÇÕES — títulos menores */
+  .section-title {
+    font-size: clamp(1.5rem, 6vw, 2.5rem);
+  }
+  
+}
+
+
+/*FOOTER*/
+
+
+footer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 35px;
+    height: 100px;
+    opacity: 5%;  
+}
+
+
+footer p {
+    color: #fff;
+    padding-bottom: 20px;
+    opacity: 50%;
+    font-size: 12px;  
+
+}
