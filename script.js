@@ -70,3 +70,25 @@ const canvas = document.getElementById('particles-canvas');
       requestAnimationFrame(animateParticles);
     }
     animateParticles();
+
+    /* ---- CURSOR CUSTOMIZADO ----
+       Capturamos a posição do mouse e movemos os divs do cursor
+    */
+    const cursor = document.getElementById('cursor');
+    const dot    = document.getElementById('cursor-dot');
+    let mx = 0, my = 0;
+ 
+    document.addEventListener('mousemove', e => {
+      mx = e.clientX; my = e.clientY;
+      dot.style.left = mx + 'px';
+      dot.style.top  = my + 'px';
+      // Cursor principal segue com leve delay (feito pelo transition no CSS)
+      cursor.style.left = mx + 'px';
+      cursor.style.top  = my + 'px';
+    });
+ 
+    document.querySelectorAll('button, a, .ep-item, .char-card').forEach(el => {
+      el.addEventListener('mouseenter', () => cursor.style.transform = 'translate(-50%,-50%) scale(2)');
+      el.addEventListener('mouseleave', () => cursor.style.transform = 'translate(-50%,-50%) scale(1)');
+    });
+ 

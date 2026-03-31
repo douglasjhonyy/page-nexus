@@ -21,6 +21,7 @@
 
 body{
     background: black;
+    cursor: none; /* cursor customizado */
 }
 
 a{
