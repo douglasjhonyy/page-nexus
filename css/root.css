@@ -27,3 +27,20 @@ body{
 a{
     text-decoration: none
  }
+
+ /* Linha de scan ao hover */
+    .char-card::before {
+      content: '';
+      position: absolute; left: 0; right: 0; top: -5%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--color1), transparent);
+      opacity: 0; transition: opacity 0.3s;
+      animation: scan-line 2s linear infinite paused;
+    }
+    .char-card:hover::before { opacity: 1; animation-play-state: running; }
+ 
+    .char-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--color2);
+      box-shadow: 0 0 30px rgba(0,245,255,0.1);
+    }
