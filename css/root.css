@@ -17,12 +17,15 @@
     font-family: var(--font-family);
     
     
+    
 }
 
 body{
     background: black;
     cursor: none; /* cursor customizado */
-    animation: fadeUp 0.8s ease 0.2s forwards;
+
+    
+    
 }
 
 a{
