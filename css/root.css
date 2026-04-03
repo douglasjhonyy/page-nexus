@@ -22,6 +22,7 @@
 body{
     background: black;
     cursor: none; /* cursor customizado */
+    animation: fadeUp 0.8s ease 0.2s forwards;
 }
 
 a{
@@ -44,3 +45,5 @@ a{
       border-color: var(--color2);
       box-shadow: 0 0 30px rgba(0,245,255,0.1);
     }
+
+    
