@@ -3,7 +3,7 @@
      margin: 50px;
 
      border-radius: 16px;
-     
+     animation: fadeUp 0.8s ease 0.2s forwards;
 
  }
 

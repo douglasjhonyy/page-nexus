@@ -5,7 +5,7 @@
     justify-content: center;
 
     animation: fadeUp 0.8s ease 0.2s forwards;
-   
+    animation: float 6s ease-in-out infinite; /* animação de flutuar */
 
 }
 
